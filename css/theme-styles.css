@@ -2056,9 +2056,10 @@ abbr {
   z-index: 2;
   position: relative; }
   .main-content-wrapper > .crumina-flying-balls:first-child {
-    padding-top: 100px; }
+    padding-top: 0px; }
     .main-content-wrapper > .crumina-flying-balls:first-child.page-not-found {
-      padding-top: 0; }
+      padding-top: 0; 
+    }
 
 /*------------- #Blocks with arrow --------------*/
 .block--with-arrow-left {
@@ -2188,7 +2189,7 @@ abbr {
 
 @media (max-width: 460px) {
   .main-content-wrapper > .crumina-flying-balls:first-child {
-    padding-top: 130px; } }
+    padding-top: 0px; } }
 
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
