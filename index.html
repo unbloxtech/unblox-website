@@ -2,75 +2,2201 @@
 <html lang="en">
 
 <head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Unblox">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>unblox</title>
 
-    <!-- ========== Page Title ========== -->
-    <title>unblox</title>
 
-    <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/plugins.css">
+	<link rel="stylesheet" type="text/css" href="css/theme-styles.css">
+	<link rel="stylesheet" type="text/css" href="css/blocks.css">
+	<link rel="stylesheet" type="text/css" href="css/widgets.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 
-    <!-- ========== Start Stylesheet ========== -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet">
-    <!-- ========== End Stylesheet ========== -->    
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i,900," rel="stylesheet">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+
+	<!--Styles for RTL-->
+
+	<!--<link rel="stylesheet" type="text/css" href="css/rtl.css">-->
+
+
 </head>
 
-<body>
+<body class="crumina-grid">
 
-    <!-- Preloader Start -->
-    <div class="se-pre-con"></div>
-    <!-- Preloader Ends -->
+	<!-- Preloader -->
 
-    <!-- Start Banner 
-    ============================================= -->
-    <div id="home" class="welcome-banner bg-fixed shadow dark text-light" style="background: black">
-        <div id="particles-js"></div>
-        <div class="container">
-            <div class="row">
-                <div class="item-table">
-                    <div class="item-cell">
-                        <div class="col-md-8 col-md-offset-2">
-                            <div class="welcome-content text-center">
-                                
-                                    <img src="assets/img/unblox.png" class="logo logo-display" alt="Logo">
-                                    <h3 class="mobile-version" style="margin-top: 20px; font-family: 'Montserrat', sans-serif;"> 
-                                        Blockchain<span class="dot"></span>Crypto-Biometrics<span class="dot"></span>Identity
-                                    </h3>
-                                    <div style="color:whitesmoke; font-family: 'Montserrat', sans-serif; font-size: large; margin-top: 20px;">Powered by<a href="https://archethic.net" target="_blank"><img src="assets/img/archethic.png" width="200px" style="margin-left: 1%;"></a>
-                                    <br><br>Coming Soon <img src="assets/img/rocket.png"></div>
-                                     
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>   
-            </div>
-            
-        </div>
-    </div>
-    <!-- End Banner -->
+	<!--<div id="hellopreloader">
+	<div class="preloader">
+		<svg width="135" height="140" fill="#fff">
+			<rect width="15" height="120" y="10" rx="6">
+				<animate attributeName="height" begin="0.5s" calcMode="linear" dur="1s" repeatCount="indefinite" values="120;110;100;90;80;70;60;50;40;140;120" />
+				<animate attributeName="y" begin="0.5s" calcMode="linear" dur="1s" repeatCount="indefinite" values="10;15;20;25;30;35;40;45;50;0;10" />
+			</rect>
+			<rect width="15" height="120" x="30" y="10" rx="6">
+				<animate attributeName="height" begin="0.25s" calcMode="linear" dur="1s" repeatCount="indefinite" values="120;110;100;90;80;70;60;50;40;140;120" />
+				<animate attributeName="y" begin="0.25s" calcMode="linear" dur="1s" repeatCount="indefinite" values="10;15;20;25;30;35;40;45;50;0;10" />
+			</rect>
+			<rect width="15" height="140" x="60" rx="6">
+				<animate attributeName="height" begin="0s" calcMode="linear" dur="1s" repeatCount="indefinite" values="120;110;100;90;80;70;60;50;40;140;120" />
+				<animate attributeName="y" begin="0s" calcMode="linear" dur="1s" repeatCount="indefinite" values="10;15;20;25;30;35;40;45;50;0;10" />
+			</rect>
+			<rect width="15" height="120" x="90" y="10" rx="6">
+				<animate attributeName="height" begin="0.25s" calcMode="linear" dur="1s" repeatCount="indefinite" values="120;110;100;90;80;70;60;50;40;140;120" />
+				<animate attributeName="y" begin="0.25s" calcMode="linear" dur="1s" repeatCount="indefinite" values="10;15;20;25;30;35;40;45;50;0;10" />
+			</rect>
+			<rect width="15" height="120" x="120" y="10" rx="6">
+				<animate attributeName="height" begin="0.5s" calcMode="linear" dur="1s" repeatCount="indefinite" values="120;110;100;90;80;70;60;50;40;140;120" />
+				<animate attributeName="y" begin="0.5s" calcMode="linear" dur="1s" repeatCount="indefinite" values="10;15;20;25;30;35;40;45;50;0;10" />
+			</rect>
+		</svg>
 
-    <!-- jQuery Frameworks
-    ============================================= -->
-    <script src="assets/js/jquery-1.12.4.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/equal-height.min.js"></script>
-    <script src="assets/js/jaliswall.js"></script>
-    <script src="assets/js/jquery.appear.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/particles.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/YTPlayer.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/count-to.js"></script>
-    <script src="assets/js/typed.js"></script>
-    <script src="assets/js/main.js"></script>
+		<div class="text">Loading ...</div>
+	</div>
+</div>-->
+
+	<!-- ... end Preloader -->
+
+	<!-- Header -->
+
+	<header class="header slideUp" id="site-header">
+		<div class="container">
+			<div class="header-content-wrapper">
+				<a href="index.html" class="site-logo">
+					<img width="300" src="img/unblox.png" alt="unblox">
+					<!-- <svg class="woox-icon" viewBox="0 0 481.448 101.996">
+					<path d="M152.514 14.926c0 2.1-1.339 4.593-2.1 7.081L126.3 89.366c-2.487 7.654-8.229 11.673-14.543 11.673-6.889 0-12.056-4.019-15.309-11.673L76.162 43.822 55.877 89.366c-3.253 7.654-8.994 11.673-15.309 11.673-6.7 0-12.056-4.019-14.543-11.673L2.1 22.007C1.148 19.519 0 17.031 0 14.926A14.213 14.213 0 0 1 14.352.574c5.358 0 11.1 3.062 12.821 8.037l15.5 49.18L62.575 9.76C65.063 3.827 69.655.574 76.162.574c6.7 0 11.29 3.253 13.778 9.186l19.71 48.031 15.692-49.18c1.531-4.593 7.271-8.037 12.821-8.037a14.212 14.212 0 0 1 14.351 14.352zM263.69 51.285c0 34.253-29.853 50.711-51.667 50.711-22.006 0-51.859-16.458-51.859-50.711C160.164 17.223 190.016 0 212.022 0c21.815 0 51.668 17.223 51.668 51.285zm-73.292 0c0 14.352 9.568 24.3 21.624 24.3 11.864 0 21.624-9.951 21.624-24.3 0-14.926-9.759-24.877-21.624-24.877-12.055 0-21.622 9.951-21.622 24.877zm190.974 0c0 34.253-29.853 50.715-51.672 50.715-22.006 0-51.858-16.458-51.858-50.711C277.845 17.223 307.7 0 329.7 0c21.819 0 51.672 17.223 51.672 51.285zm-73.291 0c0 14.352 9.567 24.3 21.623 24.3 11.865 0 21.624-9.951 21.624-24.3 0-14.926-9.759-24.877-21.624-24.877-12.056 0-21.623 9.951-21.623 24.877zm173.367 36.932c0 7.271-6.7 13.4-13.97 13.4-4.4 0-7.846-2.3-10.716-5.55l-21.05-24.686-21.05 24.686c-2.87 3.253-6.123 5.55-10.716 5.55-7.08 0-13.97-6.124-13.97-13.4a12.074 12.074 0 0 1 3.254-8.229l25.45-28.9-25.45-28.9a12.348 12.348 0 0 1-3.062-8.037c0-7.463 6.89-13.586 13.97-13.586a13.062 13.062 0 0 1 10.716 5.549L435.712 30.8l20.859-24.676c2.87-3.444 6.315-5.549 10.907-5.549 6.89 0 13.778 6.124 13.778 13.586a12.352 12.352 0 0 1-3.062 8.037l-25.451 28.9 25.451 28.9a11.252 11.252 0 0 1 3.254 8.219z" data-name="Слой 2" />
+				</svg> -->
+				</a>
+
+				<nav id="primary-menu" class="primary-menu">
+
+					<!-- menu-icon-wrapper -->
+
+					<a href='javascript:void(0)' id="menu-icon-trigger" class="menu-icon-trigger showhide">
+						<!-- <span class="mob-menu--title">Menu</span> -->
+						<span id="menu-icon-wrapper" class="menu-icon-wrapper">
+							<svg width="1000px" height="1000px">
+								<path id="pathD"
+									d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800">
+								</path>
+								<path id="pathE" d="M 300 500 L 700 500"></path>
+								<path id="pathF"
+									d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200">
+								</path>
+							</svg>
+						</span>
+					</a>
+
+					<ul class="primary-menu-menu">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+
+						<li>
+							<a href="#about">About</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="#we-are-cooler">We are cooler</a>
+								</li>
+								<li>
+									<a href="#we-are-better">We are better</a>
+								</li>
+								<li>
+									<a href="#we-work-harder">We work harder</a>
+								</li>
+							</ul>
+
+						</li>
+
+						<li>
+							<a href="#podcasts">Podcasts</a>
+
+						</li>
+
+						<li>
+							<a href="#press">Press</a>
+						</li>
+
+						<li class="menu-item-has-mega-menu menu-item-has-children">
+							<a href="#team">Team</a>
+						</li>
+
+						<li class="menu-item-has-mega-menu menu-item-has-children">
+							<a href="#contact">Contact</a>
+						</li>
+
+						<!-- <li class="">
+						<a href="011_contacts.html">Contacts</a>
+					</li> -->
+					</ul>
+
+				</nav>
+
+				<!-- <select class="woox--select language-switcher" data-minimum-results-for-search="Infinity"
+					data-dropdown-css-class="language-switcher-dropdown">
+					<option value="French" data-href="">French</option>
+					<option value="German" data-href="">German</option>
+					<option value="Ukrainian" data-href="">Ukrainian</option>
+					<option value="English" data-href="">English</option>
+				</select> -->
+				<!-- <a href="https://www.instagram.com/unblox_/" target="_blank"
+							class="btn btn--large btn--transparent btn--secondary">Join our community</a> -->
+				<div class="display-none">
+					<a href="https://www.linkedin.com/company/unblox-solutions/" target="_blank"
+						class="btn btn--large btn--primary btn--transparent btn--with-icon btn--icon-right ">
+						Join our community
+						<svg class="woox-icon icon-arrow-right">
+							<use xlink:href="#icon-arrow-right"></use>
+						</svg>
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+	<!-- ... end Header -->
+
+
+	<div class="main-content-wrapper">
+
+
+
+		<section data-settings="particles-1" class="main-section bg-1 crumina-flying-balls responsive-align-center">
+			<div class="container">
+				<div class="row">
+					<!-- <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+						<img class="responsive-width-50" src="img/main.png" alt="image">
+					</div> -->
+					<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+						<header class="crumina-module crumina-heading heading--h1 ">
+							<h1 class="heading-title f-size-90 weight-normal no-margin">Carbon Credits
+								<br><span class="weight-bold">Digital Identity</span></h1>
+							<h2 class="c-primary">Creator Economy</h2>
+						</header>
+						<!-- <a href="podcasts.html" target="_blank"
+							class="btn btn--large btn--transparent btn--secondary">Listen podcasts</a> -->
+						<h3 class="text-coloured">Powered by <a href="https://archethic.net" target="_blank"><img
+									class="mobile-image-size" width="250" src="img/archethic.png" /></a></h3>
+						<a href="https://www.linkedin.com/company/unblox-solutions/" target="_blank"
+							class="btn btn--large btn--primary btn--transparent btn--with-icon btn--icon-right display-none-desktop"
+							style="margin-top: 20px">
+							Join our community
+							<svg class="woox-icon icon-arrow-right">
+								<use xlink:href="#icon-arrow-right"></use>
+							</svg>
+						</a>
+					</div>
+
+				</div>
+			</div>
+			<!-- <div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						
+						<div class="full-screen">
+						
+							<div class="content">
+								<h2 style="text-align: center" class="heading--half-colored">Carbon Credits</h2>
+								<p class="text-coloured subtitle-font-mobile subtitle-width" style="text-align:center;font-size:20px">Create traceability for all ESG initiatives</p>
+								<hr class="divider hr-mobile-width">
+								<h4 style="text-align:center" class="text-coloured">Powered by <a
+										href="https://archethic.net" target="_blank"><img class="mobile-image-size"
+											width="150" src="img/archethic.png" /></a></h4>
+								<a href="https://www.instagram.com/unblox_/" target="_blank"
+									class="btn btn--large btn--primary btn--transparent btn--with-icon btn--icon-right display-none-desktop" style="margin-top: 20px">
+									Join our community
+									<svg class="woox-icon icon-arrow-right">
+										<use xlink:href="#icon-arrow-right"></use>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="full-screen">
+							
+							<div class="content">
+								<h2 style="text-align: center" class="heading--half-colored">Digital Identity</h2>
+								<p class="text-coloured subtitle-font-mobile subtitle-width" style="text-align:center;font-size:20px">
+									Enable inclusion through SSI for all who need it</p>
+								<hr class="divider hr-mobile-width">
+								<h4 style="text-align:center" class="text-coloured">Powered by <a
+										href="https://archethic.net" target="_blank"><img class="mobile-image-size"
+											width="150" src="img/archethic.png" /></a></h4>
+								<a href="https://www.instagram.com/unblox_/" target="_blank"
+									class="btn btn--large btn--primary btn--transparent btn--with-icon btn--icon-right display-none-desktop" style="margin-top: 20px">
+									Join our community
+									<svg class="woox-icon icon-arrow-right">
+										<use xlink:href="#icon-arrow-right"></use>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="full-screen">
+							
+							<div class="content">
+								<h2 style="text-align: center" class="heading--half-colored">Creator Economy</h2>
+								<p class="text-coloured subtitle-font-mobile subtitle-width" style="text-align:center;font-size:20px">
+									Provide trusted digital reputation for creators</p>
+								<hr class="divider hr-mobile-width">
+								<h4 style="text-align:center" class="text-coloured">Powered by <a
+										href="https://archethic.net" target="_blank"><img class="mobile-image-size"
+											width="150" src="img/archethic.png" /></a></h4>
+								<a href="https://www.instagram.com/unblox_/" target="_blank"
+									class="btn btn--large btn--primary btn--transparent btn--with-icon btn--icon-right display-none-desktop" style="margin-top: 20px">
+									Join our community
+									<svg class="woox-icon icon-arrow-right">
+										<use xlink:href="#icon-arrow-right"></use>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-button-next" style="color: #ff6600"></div>
+				<div class="swiper-button-prev" style="color: #ff6600"></div>
+			</div> -->
+		</section>
+
+		<!-- <section>
+		<div class="container">
+			<div class="row medium-padding80">
+				<div id="details" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="crumina-module crumina-module-slider crumina-slider--info-boxes">
+						<div class="swiper-btn-wrap">
+							<div class="swiper-btn-next">
+								<svg class="woox-icon icon-line-arrow-right">
+									<use xlink:href="#icon-line-arrow-right"></use>
+								</svg>
+							</div>
+
+							<div class="swiper-btn-prev">
+								<svg class="woox-icon icon-line-arrow-left">
+									<use xlink:href="#icon-line-arrow-left"></use>
+								</svg>
+							</div>
+						</div>
+
+						<div class="swiper-container auto-height" data-show-items="5" data-prev-next="1">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="crumina-module crumina-info-box info-box--style2">
+										<div class="info-box-thumb">
+											<svg class="woox-icon" data-name="Layer 1" viewBox="0 0 26.97 35.33">
+												<path d="M14.05 35.33l-3.92-.98 1.2-4.84-1.38-.35L8.75 34l-3.93-.97 1.22-4.92-5.47-1.38L0 26.6l1.87-4.32.42.1c.64.18 1.35.36 1.75.46l.38.08a.99.99 0 0 0 .23.03c.1 0 .37 0 .54-.43L8.5 9.27c.03-.55-.29-.93-1-1.1l-.34-.1-1.8-.44-.5-.11 1.02-4.14.49.12 5.47 1.36L13.05 0l3.92.98-1.19 4.75c.47.1.94.21 1.4.33l1.18-4.73 3.93.98-1.22 4.9c2.93 1.06 6.45 2.97 5.82 7.19a5.24 5.24 0 0 1-3.07 4.4c2.45 1.67 3.1 4.03 1.99 7.2-1.13 3.24-3.37 4.75-7.04 4.75a20.42 20.42 0 0 1-3.49-.35zm-2.7-1.7l1.98.49 1.21-4.88.47.1a20.58 20.58 0 0 0 3.77.4c3.22 0 5.1-1.25 6.09-4.07 1.08-3.09.31-5.1-2.48-6.56l-1.2-.63 1.32-.3a4.22 4.22 0 0 0 3.4-3.93c.42-2.85-1.3-4.77-5.6-6.25l-.43-.15 1.2-4.82-1.99-.49-1.18 4.73-.48-.12c-.77-.2-1.57-.38-2.36-.56l-.5-.11 1.2-4.77-2-.5-1.2 4.85-.48-.11-5.48-1.36-.54 2.18c.9.2 1.4.32 1.66.42a2.08 2.08 0 0 1 1.75 2.23l-3.33 13.4a1.57 1.57 0 0 1-1.9 1.08c-.12-.01-.46-.08-1.8-.44L1.38 25.9l5.38 1.36.48.13-1.22 4.9 1.98.5 1.22-4.87.49.13c.8.22 1.58.42 2.35.61l.48.13zM16 26.45a20.76 20.76 0 0 1-5.02-.85l-1.05-.27 1.87-7.47.48.12.72.16c2.06.46 5.51 1.24 6.77 3.28a3.13 3.13 0 0 1 .35 2.48c-.29 1.17-1.24 2.55-4.12 2.55zm-4.86-1.84l.1.02a19.97 19.97 0 0 0 4.76.82c1.82 0 2.85-.58 3.15-1.79a2.13 2.13 0 0 0-.23-1.72c-1.04-1.68-4.36-2.42-6.14-2.82l-.25-.06zm6.18-7.82a16.35 16.35 0 0 1-4.06-.7l-.96-.24L14 8.98l.5.13.6.13c1.68.38 4.51 1 5.6 2.77a2.99 2.99 0 0 1 .33 2.38c-.27 1.1-1.14 2.4-3.7 2.4zm-3.81-1.66h.01a15.57 15.57 0 0 0 3.8.65c2.09 0 2.57-.94 2.74-1.65a2 2 0 0 0-.2-1.6c-.87-1.4-3.54-2-4.98-2.32l-.14-.03z" data-name="Bitcoin BTC" />
+											</svg>
+										</div>
+										<div class="info-box-content">
+											<h5 class="info-box-title">Bitcoin</h5>
+											<ul class="pricing-tables-position pricing-tables-position--inline">
+												<li class="position-item">
+													<div class="currency-details-item">
+														<h6 class="title">Price: </h6>
+														<h6 class="value">$8,109.70</h6>
+													</div>
+												</li>
+												<li class="position-item">
+													<div class="currency-details-item">
+														<h6 class="title">Cap: </h6>
+														<h6 class="value">$136,657,260,244.00</h6>
+													</div>
+												</li>
+											</ul>
+											<div class="growth">25.94%</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="crumina-module crumina-info-box info-box--style2">
+										<div class="info-box-thumb">
+											<svg class="woox-icon"   data-name="Layer 1" viewBox="0 0 22.62 36.84">
+												<g id="Ethereum_ETH" data-name="Ethereum ETH">
+													<path d="M32 15.52L41.93 32 32 37.86 22.07 32 32 15.52zm0-1.94L20.69 32.34 32 39.02l11.3-6.68L32 13.58z" class="cls-1" transform="translate(-20.69 -13.58)" />
+													<path d="M32 28.67l9.09 3.82L32 37.86l-9.09-5.37L32 28.67zm0-1.09l-11.31 4.76L32 39.02l11.3-6.68L32 27.58z" class="cls-1" transform="translate(-20.69 -13.58)" />
+													<path d="M39.78 37.73L32 48.7l-7.78-10.96 7.27 4.3.5.3.52-.3 7.27-4.3zm3.53-3.24L32 41.16 20.7 34.5 32 50.41l11.31-15.94z" class="cls-1" transform="translate(-20.69 -13.58)" />
+													<path d="M10.81 1.88h1v22.79h-1zM10.81 27.75h1v7.87h-1z" class="cls-1" />
+												</g>
+											</svg>
+										</div>
+										<div class="info-box-content">
+											<h5 class="info-box-title">Ethereum</h5>
+											<ul class="pricing-tables-position pricing-tables-position--inline">
+												<li class="position-item">
+													<div class="currency-details-item">
+														<h6 class="title">Price:</h6>
+														<h6 class="value">$830.50</h6>
+													</div>
+												</li>
+												<li class="position-item">
+													<div class="currency-details-item">
+														<h6 class="title">Cap:</h6>
+														<h6 class="value">$80,945,193,726</h6>
+													</div>
+												</li>
+											</ul>
+											<div class="growth">30.68%</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="crumina-module crumina-info-box info-box--style2">
+										<div class="info-box-thumb">
+											<svg class="woox-icon"   data-name="Layer 1" viewBox="0 0 32.69 20">
+												<g id="Dash_DASH" data-name="Dash DASH">
+													<path d="M38.42 42H16.27l1.84-6h19.37l2.72-8H20.86l1.84-6h21.73a4.34 4.34 0 0 1 1.87.53 2.84 2.84 0 0 1 1.4 1.38 3.9 3.9 0 0 1 .52 1.73 3.73 3.73 0 0 1-.28 2.1l-2.82 8.87a10.88 10.88 0 0 1-1 1.9 9.85 9.85 0 0 1-1.64 1.69 13.19 13.19 0 0 1-1.94 1.27l-.2.08a5.6 5.6 0 0 1-1.92.45zm-20.8-1h20.8a4.78 4.78 0 0 0 1.57-.4l.13-.05a12.63 12.63 0 0 0 1.73-1.14 8.86 8.86 0 0 0 1.45-1.48 10.09 10.09 0 0 0 .87-1.66L47 27.4a2.92 2.92 0 0 0 .22-1.64 3.05 3.05 0 0 0-.4-1.37 1.94 1.94 0 0 0-.92-.94 3.55 3.55 0 0 0-1.47-.44h-21l-1.22 4h19.38L38.2 37H18.85z" class="cls-1" transform="translate(-15.57 -22)" />
+													<path d="M28.13 35H15.57l1.83-6h12.43zm-11.21-1h10.45l1.13-4H18.16z" class="cls-1" transform="translate(-15.57 -22)" />
+												</g>
+											</svg>
+
+										</div>
+										<div class="info-box-content">
+											<h5 class="info-box-title">Dash</h5>
+											<ul class="pricing-tables-position pricing-tables-position--inline">
+												<li class="position-item">
+													<div class="currency-details-item">
+														<h6 class="title">Price:</h6>
+														<h6 class="value">$554.26</h6>
+													</div>
+												</li>
+												<li class="position-item">
+													<div class="currency-details-item">
+														<h6 class="title">Cap:</h6>
+														<h6 class="value">$4,361,904,309</h6>
+													</div>
+												</li>
+											</ul>
+											<div class="drop">- 6.38%</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="crumina-module crumina-info-box info-box--style2">
+										<div class="info-box-thumb">
+											<svg class="woox-icon" data-name="Layer 1" viewBox="0 0 27.248 29">
+												<path d="M25.451 29H1.081l2.288-8.436L0 21.964l1.443-5.43 3.38-1.234L8.898 0h9.805L15.69 11.341l4.275-1.567-1.342 5.393-4.36 1.653L12.65 23h14.6zM2.387 28h22.319l1.2-4H11.355l2.07-7.933 4.357-1.651.759-3.055-4.311 1.579L17.402 1H9.666L5.652 16.066 2.275 17.3l-.789 2.969 3.381-1.4z" data-name="Litecoin LTC" />
+											</svg>
+										</div>
+										<div class="info-box-content">
+											<h5 class="info-box-title">Litecoin</h5>
+											<ul class="pricing-tables-position pricing-tables-position--inline">
+												<li class="position-item">
+													<div class="currency-details-item">
+														<h6 class="title">Price:</h6>
+														<h6 class="value">$152.51</h6>
+													</div>
+												</li>
+												<li class="position-item">
+													<div class="currency-details-item">
+														<h6 class="title">Cap:</h6>
+														<h6 class="value">$8,404,897,705</h6>
+													</div>
+												</li>
+											</ul>
+											<div class="growth">31.14%</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="crumina-module crumina-info-box info-box--style2">
+										<div class="info-box-thumb">
+											<svg class="woox-icon" data-name="Layer 1" viewBox="0 0 29.098 31.372">
+												<path d="M22.248 31.372a6.778 6.778 0 0 1-3.427-.949 6.924 6.924 0 0 1-3.424-5.952 7.569 7.569 0 0 1 1.006-3.651 2.135 2.135 0 0 0-.763-2.736 1.891 1.891 0 0 0-2.717.761 6.955 6.955 0 0 1-2.657 2.774 6.788 6.788 0 0 1-6.842-.005 6.9 6.9 0 0 1 0-11.917 6.777 6.777 0 0 1 6.854 0 11.248 11.248 0 0 1 2.731 2.717 2.056 2.056 0 0 0 2.751.811 1.691 1.691 0 0 0 1.025-1.3 2.618 2.618 0 0 0-.274-1.455 7.517 7.517 0 0 1-1.113-3.631A6.94 6.94 0 0 1 18.821.885a6.483 6.483 0 0 1 3.386-.886 6.6 6.6 0 0 1 3.479.9 6.887 6.887 0 0 1-.013 11.9 7.892 7.892 0 0 1-3.78.893 1.967 1.967 0 1 0 0 3.933 7.566 7.566 0 0 1 3.771.887 6.889 6.889 0 0 1 .009 11.915 6.809 6.809 0 0 1-3.425.945zm-7.636-14.587a3.051 3.051 0 0 1 1.53.436 3.119 3.119 0 0 1 1.142 4.064 6.608 6.608 0 0 0-.89 3.186 5.923 5.923 0 0 0 2.93 5.09 5.753 5.753 0 0 0 5.84 0 5.89 5.89 0 0 0 0-10.186 6.6 6.6 0 0 0-3.274-.754 2.966 2.966 0 1 1 0-5.933 6.89 6.89 0 0 0 3.284-.761 5.887 5.887 0 0 0-.01-10.175 5.56 5.56 0 0 0-2.922-.755 5.616 5.616 0 0 0-2.9.741 5.943 5.943 0 0 0-2.943 5.1 6.61 6.61 0 0 0 1 3.163 3.6 3.6 0 0 1 .381 2.063 2.63 2.63 0 0 1-1.535 2.036 2.785 2.785 0 0 1-1.423.383 3.1 3.1 0 0 1-2.639-1.514 9.809 9.809 0 0 0-2.435-2.425 5.777 5.777 0 0 0-5.816.014 5.9 5.9 0 0 0 0 10.193 5.763 5.763 0 0 0 5.839 0 6.017 6.017 0 0 0 2.282-2.4 3.058 3.058 0 0 1 2.559-1.566z" data-name="Ripple XRP" />
+											</svg>
+										</div>
+										<div class="info-box-content">
+											<h5 class="info-box-title">Ripple</h5>
+											<ul class="pricing-tables-position pricing-tables-position--inline">
+												<li class="position-item">
+													<div class="currency-details-item">
+														<h6 class="title">Price:</h6>
+														<h6 class="value">$0.785075</h6>
+													</div>
+												</li>
+												<li class="position-item">
+													<div class="currency-details-item">
+														<h6 class="title">Cap:</h6>
+														<h6 class="value">$30,625,160,124</h6>
+													</div>
+												</li>
+											</ul>
+											<div class="growth">31.14%</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+		<section id="about" class="medium-padding40 responsive-align-center">
+			<div class="container">
+				<div class="row medium-padding40">
+					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+						<header class="crumina-module crumina-heading heading--h2">
+							<!-- <div class="heading-sup-title">Top-5 cryptocurrencies</div> -->
+							<h2 class="heading-title weight-normal heading--half-colored">What is unblox?
+								<!-- <span class="weight-bold">all your devices</span> -->
+							</h2>
+							<div class="heading-text">
+
+
+								<!-- unblox draws its strength from Archethic Blockchain, a Layer 1 Public Blockchain that
+								has the most scalable, secure & energy-efficient solution as compared to its
+								predecessors in the market and has built its consensus protocol "ARCH" (Atomic Rotating
+								Commitment Heuristic) from the ground.
+
+								Backed by 11 patents and a highly experienced team, we are creating a decentralized
+								community that everyone can invest in with confidence, no matter how big or small their
+								contribution is. -->
+
+								<ul>
+									<li>We are a blockchain with a <span
+											style="color:#ff6600; text-transform: uppercase;">conscience</span>. We are
+										always about doing the right thing
+										with technology.</li>
+									<li>We are the Jedi of the Web3 world. What is conscience without <span
+											style="color:#ff6600; text-transform: uppercase;">capability</span>? We
+										have the ability to make blockchain a force for good. And we can tell you how.
+									</li>
+									<li>We are <span style="color:#ff6600; text-transform: uppercase;">common</span>. We
+										are truly about giving every human control over technology.
+										With ease. At SCALE.</li>
+									<li>We are <span style="color:#ff6600;">unblox</span>.</li>
+								</ul>
+
+
+							</div>
+						</header>
+
+						<!-- <p>
+							3 Areas we deeply care about
+							<ul>
+								<li>
+									Solve the Current Climate and Energy Change Catastrophe and make our planet a better
+									place.</li>
+								<li>
+									The Passion Economy will continue to grow and we envision a future that empowers and
+									monetizes individuality and creativity and in which the value of unique skills can
+									be unlocked, augmented, and surfaced to end consumers.
+								</li>
+								<li>
+									Enable a Decentralized Identity for organizations/ enterprises that can operate then
+									transparently and securely, in an identity trust fabric
+								</li>
+							</ul>
+						</p> -->
+
+						<!-- <div class="btn-market-wrap mt60">
+						<a href="#" class="btn btn--market btn--apple btn--with-icon btn--icon-left">
+							<svg class="woox-icon icon-apple">
+								<use xlink:href="#icon-apple"></use>
+							</svg>
+							<div class="text">
+								<span class="sup-title">download on</span>
+								<span class="title">Apple Store</span>
+							</div>
+						</a>
+
+						<a href="#" class="btn btn--market btn--google btn--with-icon btn--icon-left">
+							<svg class="woox-icon icon-if-59-play-843782">
+								<use xlink:href="#icon-if-59-play-843782"></use>
+							</svg>
+							<div class="text">
+								<span class="sup-title">download on</span>
+								<span class="title">Google Play</span>
+							</div>
+						</a>
+					</div> -->
+					</div>
+
+					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt30">
+						<img class="responsive-width-50" src="img/Blockchain technology.png" alt="unblox">
+					</div>
+				</div>
+				<section class="medium-padding40" id="we-are-cooler">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<header class="crumina-module crumina-heading heading--h2 pb60">
+								<h3 class="post__title entry-title text-coloured">We are <span
+										class="heading-text subtheading-font-mobile">cooler</span></h3>
+							</header>
+							<div class="counters">
+								<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+									<div class="crumina-module crumina-counter-item">
+										<!-- <svg class="woox-icon"><use xlink:href="#icon-stats"></use></svg> -->
+										<img src="img/patent.png" />
+
+										<div class="counter-numbers counter">
+											<div>12</div>
+										</div>
+										<h4 class="counter-title">Patents</h4>
+										<p class="counter-text" style="color: #ff6600">12 International Patents</p>
+										<p class="counter-text">12 worldwide patents endow unblox with the technological
+											attributes that its predecessors have lacked - scalability, speed,
+											reliability
+											and simplicity.</p>
+										<div class="counter-line"></div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+									<div class="crumina-module crumina-counter-item">
+										<!-- <svg class="woox-icon"><use xlink:href="#icon-resize"></use></svg> -->
+										<img src="img/light-bulb.png" />
+										<div class="counter-numbers counter">
+											<div>0.42</div>
+											<div class="units">J</div>
+										</div>
+										<!-- <h4 class="counter-title">Energy Consumption</h4> -->
+										<h4 class="counter-title">Energy Consumption</h4>
+										<!-- <p class="counter-text">unblox through its ARCH consensus is bringing down the
+										energy consumed per transaction to just 0.42Ws or 0.0000001167 kWh per
+										transaction.</p> -->
+										<p class="counter-text" style="color: #ff6600">0.42J - Lowest Energy Consumption
+										</p>
+										<p class="counter-text">Consumes 3.6 Billion times less energy than Bitcoin &
+											1000X less energy than Google or Amazon (email storage), due
+											to our Arch consensus each
+											transaction only needs 0.42J of energy.</p>
+										<div class="counter-line"></div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+									<div class="crumina-module crumina-counter-item">
+										<!-- <svg class="woox-icon"><use xlink:href="#icon-group"></use></svg> -->
+										<img src="img/insurance.png" />
+										<div class="counter-numbers counter">
+											<!-- <div>97.5</div>
+										<div class="units">%</div> -->
+											<div>10</div>
+											<div class="units"><sup>-9</sup></div>
+										</div>
+										<!-- <h4 class="counter-title">Secured Consensus</h4> -->
+										<h4 class="counter-title">Most Secure Network</h4>
+										<!-- <p class="counter-text">unblox operates on ARCH: A new unique form of consensus that
+										has the capability to handle any risk of fraud even with 90% of malicious nodes.
+									</p> -->
+										<p class="counter-text" style="color: #ff6600">10<sup>-9</sup> - Quantum Safe
+											Network</p>
+										<p class="counter-text">Beyond just PoW (51%) or dBFT (66%), unblox can handle
+											90%
+											of malicious miners and decentralized security based on the standards of
+											aviation safety at 0.0000001% fraud risk.
+										</p>
+										<div class="counter-line"></div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+									<div class="crumina-module crumina-counter-item">
+										<!-- <svg class="woox-icon"><use xlink:href="#icon-bitcoin-2"></use></svg> -->
+										<img src="img/time.png" />
+										<div class="counter-numbers counter">
+											<div class="units">
+												<</div> <div>5s
+											</div>
+										</div>
+										<!-- <h4 class="counter-title">Validation Time</h4> -->
+										<h4 class="counter-title">Fastest Blockchain</h4>
+										<!-- <p class="counter-text">unblox works at a scale much faster than current
+										blockchains, with the validation time for transactions being less than 5
+										seconds.</p> -->
+										<p class="counter-text" style="color: #ff6600">
+											< 5s - Fastest Blockchain</p> <p class="counter-text">unblox works at scale
+												(1 million transaction per sec) and is
+												much faster than any current blockchains, with the validation time for
+												transactions being less than 5 seconds.
+										</p>
+										<div class="counter-line"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="medium-padding40" id="we-are-better">
+					<div class="container mobile-scroll">
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<header class="crumina-module crumina-heading heading--h2 pb60">
+									<h3 class="post__title entry-title text-coloured">We are <span
+											class="heading-text subtheading-font-mobile">better</span></h3>
+								</header>
+								<table class="table--style1">
+									<thead>
+										<tr>
+											<th></th>
+											<th style="text-transform: uppercase; color: #ff6600; font-weight:bold">
+												Archethic</th>
+											<th style="text-transform: uppercase; color: #ff6600; font-weight:bold">
+												Bitcoin</th>
+											<th style="text-transform: uppercase; color: #ff6600; font-weight:bold">Eth
+												2.0</th>
+											<th style="text-transform: uppercase; color: #ff6600; font-weight:bold">BSC
+											</th>
+											<th style="text-transform: uppercase; color: #ff6600; font-weight:bold">
+												Avalanche</th>
+											<th style="text-transform: uppercase; color: #ff6600; font-weight:bold">
+												Solana</th>
+
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td style="text-transform: uppercase; color: #ff6600; font-weight:bold">
+												Consensus Mechanism</td>
+											<td>ARCH</td>
+											<td>PoW</td>
+											<td>PoS</td>
+											<td>PoSA</td>
+											<td>DAG</td>
+											<td>PoH</td>
+										</tr>
+										<tr>
+											<td style="text-transform: uppercase; color: #ff6600; font-weight:bold">
+												Validation Time</td>
+											<td>
+												< 5 sec</td> <td>10 min
+											</td>
+											<td>15 sec</td>
+											<td>3 sec</td>
+											<td>3 sec</td>
+											<td>8 sec</td>
+										</tr>
+										<tr>
+											<td style="text-transform: uppercase; color: #ff6600; font-weight:bold">
+												Transaction / sec</td>
+											<td>> 1 million</td>
+											<td>7</td>
+											<td>15000</td>
+											<td>62</td>
+											<td>4500</td>
+											<td>65000</td>
+										</tr>
+										<tr>
+											<td style="text-transform: uppercase; color: #ff6600; font-weight:bold">
+												Consensus Security</td>
+											<td>97.5%</td>
+											<td>51%</td>
+											<td>66%</td>
+											<td>66%</td>
+											<td>66%</td>
+											<td>66%</td>
+										</tr>
+										<tr>
+											<td style="text-transform: uppercase; color: #ff6600; font-weight:bold">Data
+												Management</td>
+											<td>Geo-Secured Sharding</td>
+											<td>No Sharding</td>
+											<td>Sharding</td>
+											<td>Sharding</td>
+											<td>Sharding</td>
+											<td>No Sharding</td>
+										</tr>
+										<tr>
+											<td style="text-transform: uppercase; color: #ff6600; font-weight:bold">P2P
+												Layer</td>
+											<td>Supervised Multicast</td>
+											<td>Gossip</td>
+											<td>Gossip</td>
+											<td>Gossip</td>
+											<td>Gossip</td>
+											<td>Gossip</td>
+										</tr>
+										<tr>
+											<td style="text-transform: uppercase; color: #ff6600; font-weight:bold">DeFi
+												on chain</td>
+											<td>Yes</td>
+											<td>No</td>
+											<td>No</td>
+											<td>No</td>
+											<td>No</td>
+											<td>No</td>
+										</tr>
+										<tr>
+											<td style="text-transform: uppercase; color: #ff6600; font-weight:bold">
+												On-chain governance</td>
+											<td>Yes</td>
+											<td>No</td>
+											<td>No</td>
+											<td>Yes</td>
+											<td>No</td>
+											<td>No</td>
+										</tr>
+										<tr>
+											<td style="text-transform: uppercase; color: #ff6600; font-weight:bold">Fees
+											</td>
+											<td>$0.01</td>
+											<td>$8</td>
+											<td>$4</td>
+											<td>$0.35</td>
+											<td>$0.000004</td>
+											<td>$0.00025</td>
+										</tr>
+										<tr>
+											<td style="text-transform: uppercase; color: #ff6600; font-weight:bold">
+												Native Biometric Identification</td>
+											<td>Yes</td>
+											<td>No</td>
+											<td>No</td>
+											<td>No</td>
+											<td>No</td>
+											<td>No</td>
+										</tr>
+
+
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="7">* Data in table can be changed according to future
+												developments of
+												various projects.</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+						</div>
+
+					</div>
+				</section>
+
+				<section class="medium-padding40" id="we-work-harder">
+					<div class="container">
+						<div class="row">
+
+							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+								<header class="crumina-module crumina-heading heading--h2 pb60">
+									<h3 class="post__title entry-title text-coloured">We work <span
+											class="heading-text subtheading-font-mobile"> harder</span></h3>
+								</header>
+								<ul class="crumina-module crumina-accordion accordion--style3" id="accordion4">
+
+									<li class="accordion-panel">
+										<div class="panel-heading">
+											<a href="#toggleSample4" class="accordion-heading collapsed"
+												data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+												<span class="icons">
+													<svg class="woox-icon icon-plus-sign">
+														<use xlink:href="#icon-plus-sign"></use>
+													</svg>
+													<svg class="woox-icon active icon-min">
+														<use xlink:href="#icon-min"></use>
+													</svg>
+												</span>
+												<span class="title">What we are building ?</span>
+											</a>
+										</div>
+
+										<div id="toggleSample4" class="panel-collapse collapse" aria-expanded="false"
+											role="tree">
+											<div class="panel-info">
+												<ul>
+													<li>AEWeb - One app for website maintenance, security, handling and costing on the blockchain at a fraction of the current hosting costs! <a href="https://archethic.net/aeweb.html" target="_blank" style="color: #ffffff">Click to discover more</a>
+													</li>
+													<li>AEMail - Email Redefined! An all-in-one email, messaging, wallet and payments app that provides the full suite for a user. <br>Coming Soon</li>
+													<li>AENFT - NFTs reimagined in collaboration with artists! <br>Coming Soon</li>
+												</ul>
+											</div>
+										</div>
+									</li>
+
+									<li class="accordion-panel">
+										<div class="panel-heading">
+											<a href="#toggleOne4" class="accordion-heading collapsed"
+												data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+												<span class="icons">
+													<svg class="woox-icon icon-plus-sign">
+														<use xlink:href="#icon-plus-sign"></use>
+													</svg>
+													<svg class="woox-icon active icon-min">
+														<use xlink:href="#icon-min"></use>
+													</svg>
+												</span>
+												<span class="title">What we plan to solve ourselves ?</span>
+											</a>
+										</div>
+
+										<div id="toggleOne4" class="panel-collapse collapse" aria-expanded="false"
+											role="tree">
+											<div class="panel-info">
+												<ul>
+													<li>Create traceable carbon credits - prevent greenwashing in ESG
+													</li>
+													<li>Create digital creator reputation and body of work - formalise
+														the creator gigs</li>
+													<li>Create verifiable credentials for digital trust - critical in
+														your metaverse journey</li>
+												</ul>
+											</div>
+											Is this all we will do? Not at all.
+											Does that intrigue you? It should, since it is all about you.
+
+										</div>
+									</li>
+
+									<li class="accordion-panel">
+										<div class="panel-heading">
+											<a href="#toggleTwo4" class="accordion-heading collapsed"
+												data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+												<span class="icons">
+													<svg class="woox-icon icon-plus-sign">
+														<use xlink:href="#icon-plus-sign"></use>
+													</svg>
+													<svg class="woox-icon active icon-min">
+														<use xlink:href="#icon-min"></use>
+													</svg>
+												</span>
+												<span class="title">What we plan to build with the community ?
+												</span>
+											</a>
+										</div>
+
+										<div id="toggleTwo4" class="panel-collapse collapse" aria-expanded="false"
+											role="tree">
+											<div class="panel-info">
+												<ul>
+													<li>Do you have an idea to solve world hunger?</li>
+													<li>What about world peace?</li>
+													<li>Reversing climate change, then?</li>
+												</ul>
+											</div>
+											Anything you want to build, we are here to help co-create. Write to us with
+											your ideas, and we can chat
+										</div>
+									</li>
+
+								</ul>
+							</div>
+							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
+
+
+								<img class="responsive-width-50" src="img/Global networking and communication.png"
+									alt="unblox">
+
+
+								<!-- <ul class="crumina-module crumina-circled-block">
+						<li class="circle__item">
+							<img src="img/paypal.png" class="woox-icon" alt="paypal">
+							<div class="title">PayPal</div>
+						</li>
+						<li class="circle__item">
+							<img src="img/mastercard.png" class="woox-icon" alt="mastercard">
+							<div class="title">Mastercard</div>
+						</li>
+						<li class="circle__item">
+							<img src="img/visa.png" class="woox-icon" alt="visa">
+							<div class="title">Visa</div>
+						</li>
+						<li class="circle__item">
+							<img src="img/if_Bitcoin_2745023.png" class="woox-icon" alt="paypal">
+							<div class="title">Bitcoin</div>
+						</li>
+					</ul> -->
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</div>
+		</section>
+
+
+
+
+		<section id="podcasts">
+			<div class="container">
+				<div class="row medium-padding40 align-center">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<img class="primary-dots mb30" src="img/dots-orange.png" alt="dots">
+
+						<header class="crumina-module crumina-heading heading--h2">
+							<h2 class="heading-title weight-normal heading--half-colored">Podcast by creators of unblox
+							</h2>
+							<div class="heading-text">A FunTech podcast for non-techies (and techies) - anyone who wants
+								to have fun while understanding tech.</div>
+						</header>
+
+						<iframe style="border-radius:12px"
+							src="https://open.spotify.com/embed/episode/5iWYrnjiE7AoSKVmzdpthz?utm_source=generator&theme=0"
+							width="100%" height="250" frameBorder="0" allow="autoplay; clipboard-write; "
+							loading="lazy"></iframe>
+
+						<!-- <iframe src="https://omny.fm/shows/3-techies-banter-3tb/introducing-the-techies/embed"
+							width="100%" height="180" allow="autoplay; clipboard-write" frameborder="0"
+							title="Introducing the &quot;Techies&quot;" style="margin-bottom: 20px"></iframe> -->
+
+						<!-- <div class="counters">
+						<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+							<div class="crumina-module crumina-counter-item">
+								<div class="counter-numbers counter">
+									<span data-speed="2000" data-refresh-interval="3" data-to="6386" data-from="2"></span>
+								</div>
+								<h4 class="counter-title">Market price</h4>
+								<p class="counter-text">Claritas est etiam processus dynamicus, sequitur consuetudium lectorum.</p>
+								<div class="counter-line"></div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+							<div class="crumina-module crumina-counter-item">
+								<div class="counter-numbers counter">
+									<span data-speed="2000" data-refresh-interval="3" data-to="16" data-from="2">16</span>
+									<div class="units">mb</div>
+								</div>
+								<h4 class="counter-title">Average block size</h4>
+								<p class="counter-text">Sem integer vitae justo eget magna. Eget nullam non nisi est sit amet. Nec ultrices dui sapien eget mi proin. Commodo sed egestas egestas.</p>
+								<div class="counter-line"></div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+							<div class="crumina-module crumina-counter-item">
+								<div class="counter-numbers counter">
+									<span data-speed="2000" data-refresh-interval="3" data-to="8327" data-from="2"></span>
+									<div class="units"></div>
+								</div>
+								<h4 class="counter-title">Clients worldwide</h4>
+								<p class="counter-text">Gravida rutrum quisque non tellus orci ac. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi.</p>
+								<div class="counter-line"></div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+							<div class="crumina-module crumina-counter-item">
+								<div class="counter-numbers counter">
+									<span data-speed="2000" data-refresh-interval="3" data-to="2000" data-from="2"></span>
+									<div class="units">+</div>
+								</div>
+								<h4 class="counter-title">Transactions</h4>
+								<p class="counter-text">Feugiat in ante metus dictum at tempor commodo urna nunc id cursus.</p>
+								<div class="counter-line"></div>
+							</div>
+						</div>
+					</div> -->
+						<article class="hentry post post-standard has-post-thumbnail align-left">
+							<div class="row">
+								<!-- <div class="col-lg-1">
+								<div class="post__date">
+									<a href="#" class="number">15</a>
+									<time class="published" datetime="2018-01-15 12:00:00">
+										January, 2018
+									</time>
+								</div>
+							</div> -->
+								<div class="col-lg-5">
+									<div class="post-thumb">
+										<img src="img/techies-banter-2.jpg" alt="post">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="post__content">
+
+										<a href="podcasts.html" class="h3 post__title entry-title">3 Techies Banter
+											#3TB</a>
+
+										<p class="post__text">"3 Techies Banter #3TB" is a podcast by the "Creators of
+											unblox." It's a series in which we delve into Tech, Finance, and Economics,
+											making it simple and surprising as we share its immense potential to
+											influence all our futures. Join our Banter every week to discover fun and
+											interesting insights.</p>
+
+
+										<div class="post-additional-info">
+											<a href="https://3techiesbanter.com/"
+												class="btn btn--large btn--secondary btn--transparent btn--with-icon btn--icon-right"
+												target="_blank">
+												Listen to all podcasts
+												<svg class="woox-icon icon-arrow-right">
+													<use xlink:href="#icon-arrow-right"></use>
+												</svg>
+											</a>
+
+											<div class="btn btn--round btn--share btn--share-js">
+												<svg class="woox-icon icon-share">
+													<use xlink:href="#icon-share"></use>
+												</svg>
+												<div class="shared-wrap">
+													<ul class="socials">
+														<li class="social-item">
+															<a data-sharer="facebook" data-hashtag="hashtag"
+																data-url="https://www.facebook.com/3-Techies-Banter-108033408687828">
+																<i class="fab fa-facebook-square woox-icon"></i>
+															</a>
+														</li>
+
+														<li class="social-item">
+															<a data-sharer="linkedin" data-hashtag="hashtag"
+																data-url="https://www.linkedin.com/showcase/3-techies-banter/">
+																<i class="fab fa-linkedin-in woox-icon"></i>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+	</div>
+
+
+	<section id="press"
+		class="crumina-module crumina-module-slider crumina-slider--testimonial-style4 pagination-bottom-center medium-padding40">
+		<div class="container">
+			<img class="primary-dots mb30" src="img/dots-orange.png" alt="dots">
+			<header class="crumina-module crumina-heading heading--h2">
+				<!-- <h2 class="heading-title weight-normal heading--half-colored">Press releases</h2> -->
+				<h2 class="heading-title weight-normal heading--half-colored">In the Press</h2>
+				<div class="heading-text">Check out our media coverage</div>
+			</header>
+		</div>
+
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="tabs tabs--style6">
+							<ul role="tablist">
+								<li role="presentation" class="tab-control active">
+									<a href="#tab-25" role="tab" data-toggle="tab" class="control-item">
+										<!-- <h6 class="tab-title">Cointelegraph
+											
+										</h6> -->
+										<img width="180" src="img/cointelegraph-logo-1.png" />
+									</a>
+								</li>
+								<li role="presentation" class="tab-control">
+									<a href="#tab-26" role="tab" data-toggle="tab" class="control-item">
+										<!-- <h6 class="tab-title">TEDx Talk 
+										
+										</h6> -->
+										<img width="150" src="img/Tedx.svg" />
+									</a>
+								</li>
+								<li role="presentation" class="tab-control">
+									<a href="#tab-27" role="tab" data-toggle="tab" class="control-item">
+										<!-- <h6 class="tab-title">Forbes Article
+											
+										</h6> -->
+										<img width="150" src="img/Forbes_logo-1.png" />
+									</a>
+								</li>
+								<li role="presentation" class="tab-control">
+									<a href="#tab-28" role="tab" data-toggle="tab" class="control-item">
+										<!-- <h6 class="tab-title">WEF Interview 
+											
+										</h6> -->
+										<img width="150" src="img/World_Economic_Forum_logo-1.png" />
+									</a>
+								</li>
+							</ul>
+
+							<div class="tab-content">
+								<div role="tabpanel" class="tab-pane fade active" id="tab-25">
+									<div class="row">
+										<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+											<h4 class="tab-content-title">Blockchain tech has a solution to secure your
+												email
+												<!-- <span>Dash</span> -->
+											</h4>
+											<p>Email built on top of a blockchain platform might provide more
+												communications security than centralized alternatives.</p>
+											<p>The global COVID-19 pandemic has definitely created a clear delineation
+												of remote work: The reliability of a company lies in its email service
+												provider for all forms of communication.</p>
+											<a href="https://cointelegraph.com/news/blockchain-tech-has-a-solution-to-secure-your-email"
+												target="_blank" class="primary-link-with-icon margin-bottom-mobile">Read
+												full article
+												<svg class="woox-icon icon-arrow-right">
+													<use xlink:href="#icon-arrow-right"></use>
+												</svg>
+											</a>
+										</div>
+										<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+											<img class="block-rounded" src="img/cointelegraph.png" alt="image">
+										</div>
+									</div>
+								</div>
+								<div role="tabpanel" class="tab-pane fade" id="tab-26">
+									<div class="row">
+										<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+											<h4 class="tab-content-title">Is eternal life a reality?
+												<!-- <span>ETH</span> -->
+											</h4>
+											<p>Samiran Ghosh talks about how technology is taking us towards eternal
+												life. And how things that we see in theory might turn to reality , as it
+												has been becoming lately. He also emphasis on the way people take their
+												lives into finding the meaning and definition of it.</p>
+											<p>Samiran is the Chief Digital Advisor / Enterprise Digital Architect with
+												Microsoft where he works with clients across sectors to enable
+												them to have deeper and engaging relationships.</p>
+											<a href="https://www.youtube.com/watch?v=heDRRHkufeM&list=PLwg7goB3hvTR7UiScOiVJhS3kmErzQVPf"
+												target="_blank"
+												class="primary-link-with-icon margin-bottom-mobile">Watch full video
+												<svg class="woox-icon icon-arrow-right">
+													<use xlink:href="#icon-arrow-right"></use>
+												</svg>
+											</a>
+										</div>
+										<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+											<img class="block-rounded" src="img/tedx.png" alt="image">
+										</div>
+									</div>
+								</div>
+								<div role="tabpanel" class="tab-pane fade" id="tab-27">
+									<div class="row">
+										<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+											<h4 class="tab-content-title">Build the truth block by block
+												<!-- <span>BTC</span> -->
+											</h4>
+											<p>There is nothing new about fake news. It has been in existence for
+												centuries, albeit without the scaffolding of support from social media.
+												From housewives’ tales to gossip magazines, the Trojan horse to the
+												misinformation around the D-Day landing site, fake news has been a rite
+												of passage.</p>
+											<p>The Russian military made this into a fine art with “maskirovka,” the
+												doctrine gaining superiority.....</p>
+											<a href="https://www.forbes.com/sites/forbestechcouncil/2020/09/30/build-the-truth-block-by-block/?sh=4e0a18b22c4b"
+												target="_blank" class="primary-link-with-icon margin-bottom-mobile">Read
+												full article
+												<svg class="woox-icon icon-arrow-right">
+													<use xlink:href="#icon-arrow-right"></use>
+												</svg>
+											</a>
+										</div>
+										<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+											<img class="block-rounded" src="img/forbes.png" alt="image">
+										</div>
+									</div>
+								</div>
+
+
+								<div role="tabpanel" class="tab-pane fade" id="tab-28">
+									<div class="row">
+										<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+											<h4 class="tab-content-title">Accelerating towards a more inclusive society
+												with AI and Blockchain
+												<!-- <span>LTC</span> -->
+											</h4>
+											<p>The Fourth Industrial Revolution , normally characterized by the
+												utilization of new technologies such as artificial intelligence, 3D
+												printing, blockchain , Internet of Things, 5G among others — has ushered
+												in a new era of economic disruption with uncertain socio-economic
+												consequences, especially for the Global South.</p>
+											<!-- <p>Egestas quis ipsum suspendisse ultrices gravida.</p> -->
+											<a href="https://medium.datadriveninvestor.com/accelerating-towards-a-more-inclusive-society-with-ai-and-blockchain-b72135f1d364"
+												target="_blank" class="primary-link-with-icon margin-bottom-mobile">Read
+												full interview
+												<svg class="woox-icon icon-arrow-right">
+													<use xlink:href="#icon-arrow-right"></use>
+												</svg>
+											</a>
+										</div>
+										<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+											<img class="block-rounded" src="img/wef.png" alt="image">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+		<!-- <div class="swiper-container" data-show-items="auto" data-centered-slider="true">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="crumina-module crumina-testimonial-item testimonial-item--with-bg">
+
+						<div class="testimonial-content">
+							<h6 class="testimonial-text">
+								<svg class="woox-icon icon-quote-icon quote">
+									<use xlink:href="#icon-quote-icon"></use>
+								</svg>
+								<svg class="woox-icon icon-quote-icon2 quote quote-close">
+									<use xlink:href="#icon-quote-icon2"></use>
+								</svg>
+								Qel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+								vel illum dolore eu feugiat nulla facilisis.
+							</h6>
+
+							<div class="info-rating-wrap">
+
+
+								<div class="author-block">
+									<div class="avatar avatar80">
+										<img src="img/author1.jpg" alt="avatar">
+									</div>
+									<div class="author-content">
+										<a href="#" class="author-name">Philip Demarco</a>
+										<div class="author-prof">founder of agency</div>
+										<ul class="rait-stars">
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+										</ul>
+									</div>
+
+
+								</div>
+
+								<img src="img/testim-logo.png" alt="testim-logo">
+							</div>
+						</div>
+					</div>
+					<div class="crumina-module crumina-testimonial-item testimonial-item--with-bg">
+
+						<div class="testimonial-content">
+							<h6 class="testimonial-text">
+								<svg class="woox-icon icon-quote-icon quote">
+									<use xlink:href="#icon-quote-icon"></use>
+								</svg>
+								<svg class="woox-icon icon-quote-icon2 quote quote-close">
+									<use xlink:href="#icon-quote-icon2"></use>
+								</svg>
+								Qel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+								vel illum dolore eu feugiat nulla facilisis.
+							</h6>
+
+							<div class="info-rating-wrap">
+
+
+								<div class="author-block">
+									<div class="avatar avatar80">
+										<img src="img/author2.jpg" alt="avatar">
+									</div>
+									<div class="author-content">
+										<a href="#" class="author-name">Philip Demarco</a>
+										<div class="author-prof">founder of agency</div>
+										<ul class="rait-stars">
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+										</ul>
+									</div>
+
+
+								</div>
+
+								<img src="img/testim-logo.png" alt="testim-logo">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="crumina-module crumina-testimonial-item testimonial-item--with-bg">
+
+						<div class="testimonial-content">
+							<h6 class="testimonial-text">
+								<svg class="woox-icon icon-quote-icon quote">
+									<use xlink:href="#icon-quote-icon"></use>
+								</svg>
+								<svg class="woox-icon icon-quote-icon2 quote quote-close">
+									<use xlink:href="#icon-quote-icon2"></use>
+								</svg>
+								Qel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+								vel illum dolore eu feugiat nulla facilisis.
+							</h6>
+
+							<div class="info-rating-wrap">
+
+
+								<div class="author-block">
+									<div class="avatar avatar80">
+										<img src="img/author3.jpg" alt="avatar">
+									</div>
+									<div class="author-content">
+										<a href="#" class="author-name">Philip Demarco</a>
+										<div class="author-prof">founder of agency</div>
+										<ul class="rait-stars">
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+										</ul>
+									</div>
+
+
+								</div>
+
+								<img src="img/testim-logo.png" alt="testim-logo">
+							</div>
+						</div>
+					</div>
+					<div class="crumina-module crumina-testimonial-item testimonial-item--with-bg">
+
+						<div class="testimonial-content">
+							<h6 class="testimonial-text">
+								<svg class="woox-icon icon-quote-icon quote">
+									<use xlink:href="#icon-quote-icon"></use>
+								</svg>
+								<svg class="woox-icon icon-quote-icon2 quote quote-close">
+									<use xlink:href="#icon-quote-icon2"></use>
+								</svg>
+								Qel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+								vel illum dolore eu feugiat nulla facilisis.
+							</h6>
+
+							<div class="info-rating-wrap">
+
+
+								<div class="author-block">
+									<div class="avatar avatar80">
+										<img src="img/author1.jpg" alt="avatar">
+									</div>
+									<div class="author-content">
+										<a href="#" class="author-name">Philip Demarco</a>
+										<div class="author-prof">founder of agency</div>
+										<ul class="rait-stars">
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+										</ul>
+									</div>
+
+
+								</div>
+
+								<img src="img/testim-logo.png" alt="testim-logo">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="crumina-module crumina-testimonial-item testimonial-item--with-bg">
+
+						<div class="testimonial-content">
+							<h6 class="testimonial-text">
+								<svg class="woox-icon icon-quote-icon quote">
+									<use xlink:href="#icon-quote-icon"></use>
+								</svg>
+								<svg class="woox-icon icon-quote-icon2 quote quote-close">
+									<use xlink:href="#icon-quote-icon2"></use>
+								</svg>
+								Qel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+								vel illum dolore eu feugiat nulla facilisis.
+							</h6>
+
+							<div class="info-rating-wrap">
+
+
+								<div class="author-block">
+									<div class="avatar avatar80">
+										<img src="img/author2.jpg" alt="avatar">
+									</div>
+									<div class="author-content">
+										<a href="#" class="author-name">Philip Demarco</a>
+										<div class="author-prof">founder of agency</div>
+										<ul class="rait-stars">
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+										</ul>
+									</div>
+
+
+								</div>
+
+								<img src="img/testim-logo.png" alt="testim-logo">
+							</div>
+						</div>
+					</div>
+					<div class="crumina-module crumina-testimonial-item testimonial-item--with-bg">
+
+						<div class="testimonial-content">
+							<h6 class="testimonial-text">
+								<svg class="woox-icon icon-quote-icon quote">
+									<use xlink:href="#icon-quote-icon"></use>
+								</svg>
+								<svg class="woox-icon icon-quote-icon2 quote quote-close">
+									<use xlink:href="#icon-quote-icon2"></use>
+								</svg>
+								Qel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+								vel illum dolore eu feugiat nulla facilisis.
+							</h6>
+
+							<div class="info-rating-wrap">
+
+
+								<div class="author-block">
+									<div class="avatar avatar80">
+										<img src="img/author3.jpg" alt="avatar">
+									</div>
+									<div class="author-content">
+										<a href="#" class="author-name">Philip Demarco</a>
+										<div class="author-prof">founder of agency</div>
+										<ul class="rait-stars">
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+										</ul>
+									</div>
+
+
+								</div>
+
+								<img src="img/testim-logo.png" alt="testim-logo">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="crumina-module crumina-testimonial-item testimonial-item--with-bg">
+
+						<div class="testimonial-content">
+							<h6 class="testimonial-text">
+								<svg class="woox-icon icon-quote-icon quote">
+									<use xlink:href="#icon-quote-icon"></use>
+								</svg>
+								<svg class="woox-icon icon-quote-icon2 quote quote-close">
+									<use xlink:href="#icon-quote-icon2"></use>
+								</svg>
+								Qel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+								vel illum dolore eu feugiat nulla facilisis.
+							</h6>
+
+							<div class="info-rating-wrap">
+
+
+								<div class="author-block">
+									<div class="avatar avatar80">
+										<img src="img/author1.jpg" alt="avatar">
+									</div>
+									<div class="author-content">
+										<a href="#" class="author-name">Philip Demarco</a>
+										<div class="author-prof">founder of agency</div>
+										<ul class="rait-stars">
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+										</ul>
+									</div>
+
+
+								</div>
+
+								<img src="img/testim-logo.png" alt="testim-logo">
+							</div>
+						</div>
+					</div>
+					<div class="crumina-module crumina-testimonial-item testimonial-item--with-bg">
+
+						<div class="testimonial-content">
+							<h6 class="testimonial-text">
+								<svg class="woox-icon icon-quote-icon quote">
+									<use xlink:href="#icon-quote-icon"></use>
+								</svg>
+								<svg class="woox-icon icon-quote-icon2 quote quote-close">
+									<use xlink:href="#icon-quote-icon2"></use>
+								</svg>
+								Qel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+								vel illum dolore eu feugiat nulla facilisis.
+							</h6>
+
+							<div class="info-rating-wrap">
+
+
+								<div class="author-block">
+									<div class="avatar avatar80">
+										<img src="img/author2.jpg" alt="avatar">
+									</div>
+									<div class="author-content">
+										<a href="#" class="author-name">Philip Demarco</a>
+										<div class="author-prof">founder of agency</div>
+										<ul class="rait-stars">
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+											<li>
+												<svg class="woox-icon icon-star-1">
+													<use xlink:href="#icon-star-1"></use>
+												</svg>
+											</li>
+										</ul>
+									</div>
+
+
+								</div>
+
+								<img src="img/testim-logo.png" alt="testim-logo">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="swiper-pagination"></div> -->
+	</section>
+
+	<section id="team" class="crumina-module crumina-module-slider navigation-center-both-sides">
+		<div class="container">
+			<div class="row medium-padding40 align-center">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb30">
+					<img class="primary-dots mb30" src="img/dots-orange.png" alt="dots">
+
+					<header class="crumina-module crumina-heading heading--h2">
+						<h2 class="heading-title weight-normal heading--half-colored">unblox Team
+							<!-- <span class="weight-bold">podcasts</span> -->
+						</h2>
+						<div class="heading-text">Humans of unblox</div>
+					</header>
+					<div class="swiper-container" data-show-items="3" data-prev-next="1">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="crumina-module crumina-info-box info-box--style7">
+									<div class="info-box-thumb">
+										<img src="img/Untitled_design__3_-removebg-preview.png" class="woox-icon"
+											alt="bitcoin">
+									</div>
+									<div class="info-box-content">
+										<h4 class="info-box-title">Sebastien Dupont
+											<!-- <span>DASH</span> -->
+										</h4>
+										<p class="info-box-text align-left">A senior leader with management roles in
+											French telecommunications giant, Orange & Technology Innovation Leader,
+											Thales, he holds 12 patents in Blockchain & Biometrics. As head of the
+											Orange Europe Digital Identity project, he proposed a solution that he & his
+											team developed & deployed in 9 months over 8 countries. This solution, which
+											is still in use, has more than 100M customers and 300M requests per day. He
+											was also a part of the Orange Money project, in which he completely
+											restructured, secured, and integrated the Agile development model.</p>
+										<a href="https://www.linkedin.com/in/sebastien-dupont-uniris/" target="_blank"
+											class="btn btn--small btn--dark btn--with-icon btn--icon-right">
+											LinkedIn
+											<svg class="woox-icon icon-arrow-right">
+												<use xlink:href="#icon-arrow-right"></use>
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="crumina-module crumina-info-box info-box--style7">
+									<div class="info-box-thumb">
+										<img src="img/Untitled_design-removebg-preview (1).png" class="woox-icon"
+											alt="bitcoin">
+									</div>
+									<div class="info-box-content">
+										<h4 class="info-box-title">Samiran Ghosh
+											<!-- <span>BTC</span> -->
+										</h4>
+										<p class="info-box-text align-left">In a career spanning 27 years, Samiran has
+											held leadership roles at McKinsey, Microsoft, IBM, Dun & Bradstreet, IBM,
+											and TCS. In addition, he is a recognized thought leader in the AI/Blockchain
+											space, a TEDx speaker, on the first AI & Ethics Journal editorial board, and
+											a member of the Forbes Tech Council and World Economic Forum. Currently also
+											a Senior Advisor/Board Member with several startups in the fintech,
+											artificial intelligence, and blockchain space. He has also co-authored a
+											couple of books listed amongst the top 20 new fintech books to read in 2020.
+										</p>
+										<a href="https://www.linkedin.com/in/samiranbghosh/" target="_blank"
+											class="btn btn--small btn--dark btn--with-icon btn--icon-right">
+											LinkedIn
+											<svg class="woox-icon icon-arrow-right">
+												<use xlink:href="#icon-arrow-right"></use>
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="crumina-module crumina-info-box info-box--style7">
+									<div class="info-box-thumb">
+										<img src="img/Untitled_design__1_-removebg-preview.png" class="woox-icon"
+											alt="bitcoin">
+									</div>
+									<div class="info-box-content">
+										<h4 class="info-box-title">Nilesh Patankar
+											<!-- <span>ETH</span> -->
+										</h4>
+										<p class="info-box-text align-left">For over two decades, Nilesh has been
+											involved in every aspect of developing & releasing commercial software
+											products. He has been behind the launch of new products like mobile POS -
+											payPLUS & replatforming projects like India’s largest coalition loyalty
+											network - PAYBACK. 4 years of research & 11 international patents provide
+											Archethic with the technological attributes that the predecessors have
+											lacked - scalability, speed, reliability, & simplicity of native biometric
+											recognition. Archethic blockchain has been designed for mass adoption.
+										</p>
+										<a href="https://www.linkedin.com/in/nileshpatankar/" target="_blank"
+											class="btn btn--small btn--dark btn--with-icon btn--icon-right">
+											LinkedIn
+											<svg class="woox-icon icon-arrow-right">
+												<use xlink:href="#icon-arrow-right"></use>
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="crumina-module crumina-info-box info-box--style7">
+									<div class="info-box-thumb avatar avatar320">
+										<img src="img/Untitled_design__2_-removebg-preview.png" class="woox-icon"
+											alt="bitcoin">
+									</div>
+									<div class="info-box-content">
+										<h4 class="info-box-title">Sheetal Choksi
+											<!-- <span>DASH</span> -->
+										</h4>
+										<p class="info-box-text align-left">For over two decades, Sheetal has spent most
+											of her time in research & marketing & developed the unique capability of
+											managing large projects. A seasoned strategist & communications
+											professional, with over 25 years’ experience in research, advertising,
+											retail & branding. Her key strength is her ability to lead & drive projects
+											from the strategic phase right through to execution with an eye for detail.
+											She is co-founder of two companies, Word Hatter, a strategic content company
+											& Unpac Research, a boutique research company.
+										</p>
+										<a href="https://www.linkedin.com/in/sheetalchoksi/" target="_blank"
+											class="btn btn--small btn--dark btn--with-icon btn--icon-right">
+											LinkedIn
+											<svg class="woox-icon icon-arrow-right">
+												<use xlink:href="#icon-arrow-right"></use>
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="swiper-btn-next">
+			<svg class="woox-icon icon-line-arrow-right">
+				<use xlink:href="#icon-line-arrow-right"></use>
+			</svg>
+		</div>
+
+		<div class="swiper-btn-prev">
+			<svg class="woox-icon icon-line-arrow-left">
+				<use xlink:href="#icon-line-arrow-left"></use>
+			</svg>
+		</div>
+	</section>
+
+
+
+	<!-- <section class="bg-1">
+
+		<div class="container">
+			<div class="row medium-padding120">
+				<div class="crumina-module crumina-featured-block">
+					<div class="image-block">
+						<img src="img/pc.png" alt="phone">
+					</div>
+					<div class="text-block">
+						<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+							<h2 class="heading-title weight-normal">Access
+								<span class="weight-bold">analytical market & price data</span></h2>
+							<div class="heading-text">Investigationes demonstraverunt lectores legere elementum pulvinar etiam non quam lacus suspendisse risus nec feugiat in fermentum laoreet sit amet cursus.</div>
+						</header>
+					</div>
+				</div>
+			</div>
+
+			<div class="row pb100">
+				<div class="col-lg-12 col-md-12 col0sm-12 col-xs-12">
+					<div class="crumina-module crumina-module-slider clients--slider navigation-center-both-sides">
+
+						<div class="swiper-btn-next">
+							<svg class="woox-icon icon-line-arrow-right">
+								<use xlink:href="#icon-line-arrow-right"></use>
+							</svg>
+						</div>
+
+						<div class="swiper-btn-prev">
+							<svg class="woox-icon icon-line-arrow-left">
+								<use xlink:href="#icon-line-arrow-left"></use>
+							</svg>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
+								<div class="swiper-container" data-show-items="5" data-prev-next="1">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<a class="clients-item" href="#">
+												<img src="img/client1.png" class="" alt="logo">
+											</a>
+										</div>
+										<div class="swiper-slide">
+											<a class="clients-item" href="#">
+												<img src="img/client2.png" class="" alt="logo">
+											</a>
+										</div>
+										<div class="swiper-slide">
+											<a class="clients-item" href="#">
+												<img src="img/client3.png" class="" alt="logo">
+											</a>
+										</div>
+										<div class="swiper-slide">
+											<a class="clients-item" href="#">
+												<img src="img/client4.png" class="" alt="logo">
+											</a>
+										</div>
+										<div class="swiper-slide">
+											<a class="clients-item" href="#">
+												<img src="img/client5.png" class="" alt="logo">
+											</a>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="divider">
+		</div>
+
+	</section>
+
+	<section class="medium-padding120 responsive-align-center">
+		<div class="container">
+			<div class="row bg-2">
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
+					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+						<img class="primary-dots mb30" src="img/dots.png" alt="dots">
+						<h2 class="heading-title weight-normal">Hurry to invest
+							<span class="weight-bold">in cryptocurrency</span></h2>
+						<div class="heading-text">Investigationes demonstraverunt lectores legere elementum pulvinar etiam non quam lacus suspendisse.</div>
+					</header>
+					<p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum
+						formas humanitatis per laoreet sit amet cursus seacula qui mutationem consuetudium claritas est etiam processus dynamicus.
+					</p>
+					<div class="crumina-module crumina-counter-item counter--icon-left mt60">
+						<svg class="woox-icon">
+							<use xlink:href="#icon-group"></use>
+						</svg>
+						<div class="counter-content">
+							<div class="counter-numbers counter">
+								<span data-speed="2000" data-refresh-interval="3" data-to="68000" data-from="2">68000</span>
+								<div class="units">+</div>
+							</div>
+							<h4 class="counter-title">ICO Participants</h4>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-lg-6 col-md-12 col-lg-offset-0 col-sm-12 col-xs-12">
+					<div class="widget w-distribution-ends countdown-bg1">
+						<h5 class="title">Distribution
+							<br>Ends In:</h5>
+
+						<div class="crumina-countdown-item">
+							<div class="crumina-countdown" data-date="2019-01-01 00:00:00"></div>
+						</div>
+
+						<a href="006_events.html" class="btn btn--large btn--green-light">
+							Buy Woox Tokens
+						</a>
+
+						<div class="crumina-module crumina-skills-item skills-item--bordered">
+							<div class="skills-item-info">
+								<span class="skills-item-title">$6M<span class="skills-item-count c-primary"><span class="count-animate" data-speed="1000" data-refresh-interval="50" data-to="50" data-from="0"></span><span class="units">m</span></span></span>
+							</div>
+							<div class="skills-item-meter">
+								<span class="skills-item-meter-active bg-primary-color" style="width: 50%"></span>
+							</div>
+							<span class="add-info">
+								<span><span class="c-link-color">Softcap</span> in 976 days</span>
+								<span class="c-link-color">Hardcap</span>
+							</span>
+						</div>
+
+						<div class="price-wrap">
+							<div class="token-price">
+								Token Price:
+								<div class="price-value">$0.0023</div>
+							</div>
+							<div class="token-total">
+								Total Woox Tokens:
+								<div class="price-value">6803.0122</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+	</div>
+
+	<!-- Footer -->
+
+	<footer id="contact" id="site-footer" class="footer ">
+
+		<canvas id="can"></canvas>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-sm-offset-0 col-xs-12">
+					<div class="widget w-info">
+						<a href="index.html" class="site-logo">
+							<img width="300" src="img/unblox.png" alt="unblox">
+							<!-- <svg class="woox-icon" viewBox="0 0 481.448 101.996">
+							<path d="M152.514 14.926c0 2.1-1.339 4.593-2.1 7.081L126.3 89.366c-2.487 7.654-8.229 11.673-14.543 11.673-6.889 0-12.056-4.019-15.309-11.673L76.162 43.822 55.877 89.366c-3.253 7.654-8.994 11.673-15.309 11.673-6.7 0-12.056-4.019-14.543-11.673L2.1 22.007C1.148 19.519 0 17.031 0 14.926A14.213 14.213 0 0 1 14.352.574c5.358 0 11.1 3.062 12.821 8.037l15.5 49.18L62.575 9.76C65.063 3.827 69.655.574 76.162.574c6.7 0 11.29 3.253 13.778 9.186l19.71 48.031 15.692-49.18c1.531-4.593 7.271-8.037 12.821-8.037a14.212 14.212 0 0 1 14.351 14.352zM263.69 51.285c0 34.253-29.853 50.711-51.667 50.711-22.006 0-51.859-16.458-51.859-50.711C160.164 17.223 190.016 0 212.022 0c21.815 0 51.668 17.223 51.668 51.285zm-73.292 0c0 14.352 9.568 24.3 21.624 24.3 11.864 0 21.624-9.951 21.624-24.3 0-14.926-9.759-24.877-21.624-24.877-12.055 0-21.622 9.951-21.622 24.877zm190.974 0c0 34.253-29.853 50.715-51.672 50.715-22.006 0-51.858-16.458-51.858-50.711C277.845 17.223 307.7 0 329.7 0c21.819 0 51.672 17.223 51.672 51.285zm-73.291 0c0 14.352 9.567 24.3 21.623 24.3 11.865 0 21.624-9.951 21.624-24.3 0-14.926-9.759-24.877-21.624-24.877-12.056 0-21.623 9.951-21.623 24.877zm173.367 36.932c0 7.271-6.7 13.4-13.97 13.4-4.4 0-7.846-2.3-10.716-5.55l-21.05-24.686-21.05 24.686c-2.87 3.253-6.123 5.55-10.716 5.55-7.08 0-13.97-6.124-13.97-13.4a12.074 12.074 0 0 1 3.254-8.229l25.45-28.9-25.45-28.9a12.348 12.348 0 0 1-3.062-8.037c0-7.463 6.89-13.586 13.97-13.586a13.062 13.062 0 0 1 10.716 5.549L435.712 30.8l20.859-24.676c2.87-3.444 6.315-5.549 10.907-5.549 6.89 0 13.778 6.124 13.778 13.586a12.352 12.352 0 0 1-3.062 8.037l-25.451 28.9 25.451 28.9a11.252 11.252 0 0 1 3.254 8.219z" data-name="Слой 2" />
+						</svg> -->
+						</a>
+						<p>We are building a decentralized inclusive world. Stay tuned for more updates. </p>
+					</div>
+
+					<div class="widget w-contacts">
+						<ul class="socials socials--white">
+							<li class="social-item">
+								<a href="https://twitter.com/unblox_" target="_blank">
+									<img width="30" src="img/Twitter.svg" />
+								</a>
+							</li>
+
+							<!-- <li class="social-item">
+								<a href="#">
+									<i class="fab fa-dribbble woox-icon"></i>
+								</a>
+							</li> -->
+
+							<li class="social-item">
+								<a href="https://www.instagram.com/unblox_/" target="_blank">
+									<!-- <i class="fab fa-instagram woox-icon"></i> -->
+									<img width="30" src="img/Instagram.svg" />
+								</a>
+							</li>
+
+							<li class="social-item">
+								<a href="https://www.linkedin.com/company/unblox-solutions/" target="_blank">
+									<!-- <i class="fab fa-linkedin-in woox-icon"></i> -->
+									<img width="30" src="img/LinkedIn.svg" />
+								</a>
+							</li>
+
+							<!-- <li class="social-item">
+								<a href="#">
+									<i class="fab fa-facebook-square woox-icon"></i>
+								</a>
+							</li> -->
+						</ul>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+		<div class="info-wrap">
+			<!-- <div class="info">Phone: <span>8 800 567.890.11</span></div> -->
+			<div class="info">Email: <a href="mailto:contact@unblox.com">contact@unblox.com</a></div>
+			<br>
+		</div>
+
+		<div class="sub-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-sm-offset-0 col-xs-12">
+
+						<span>unblox © All right reserved 2022.</span>
+						<!-- <span><a href="index.html">The Woox</a> - ICO and Cryptocurrency Website PSD Template.</span> -->
+
+						<!-- <div class="logo-design">
+						<img src="img/logo-fire.png" alt="ThemeFire">
+						<div class="design-wrap">
+							<div class="sup-title">designed by</div>
+							<a href="https://themeforest.net/user/themefire/portfolio" class="logo-title">themefire</a>
+						</div>
+					</div>
+
+					<div class="logo-design logo-design-crumina">
+						<img src="img/crumina-logo.png" alt="Crumina">
+						<div class="design-wrap">
+							<div class="sup-title">developed by</div>
+							<a href="https://crumina.net/" class="logo-title">Crumina</a>
+						</div>
+					</div> -->
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<a class="back-to-top" href="#">
+			<svg class="woox-icon icon-top-arrow">
+				<use xlink:href="#icon-top-arrow"></use>
+			</svg>
+		</a>
+	</footer>
+
+	<!-- ... end Footer -->
+
+
+	<script src="js/method-assign.js"></script>
+
+	<!-- jQuery first, then Other JS. -->
+
+	<script src="js/jquery-3.3.1.js"></script>
+
+	<script src="js/js-plugins/leaflet.js"></script>
+	<script src="js/js-plugins/MarkerClusterGroup.js"></script>
+	<script src="js/js-plugins/crum-mega-menu.js"></script>
+	<script src="js/js-plugins/waypoints.js"></script>
+	<script src="js/js-plugins/jquery-circle-progress.js"></script>
+	<script src="js/js-plugins/segment.js"></script>
+	<script src="js/js-plugins/bootstrap.js"></script>
+	<script src="js/js-plugins/imagesLoaded.js"></script>
+	<script src="js/js-plugins/jquery.matchHeight.js"></script>
+	<script src="js/js-plugins/jquery-countTo.js"></script>
+	<script src="js/js-plugins/Headroom.js"></script>
+	<script src="js/js-plugins/jquery.magnific-popup.js"></script>
+	<script src="js/js-plugins/popper.min.js"></script>
+	<script src="js/js-plugins/particles.js"></script>
+	<script src="js/js-plugins/perfect-scrollbar.js"></script>
+	<script src="js/js-plugins/jquery.datetimepicker.full.js"></script>
+	<script src="js/js-plugins/svgxuse.js"></script>
+	<script src="js/js-plugins/select2.js"></script>
+	<script src="js/js-plugins/smooth-scroll.js"></script>
+	<script src="js/js-plugins/sharer.js"></script>
+	<script src="js/js-plugins/isotope.pkgd.min.js"></script>
+	<script src="js/js-plugins/ajax-pagination.js"></script>
+	<script src="js/js-plugins/swiper.min.js"></script>
+	<script src="js/js-plugins/material.min.js"></script>
+	<script src="js/js-plugins/orbitlist.js"></script>
+	<script src="js/js-plugins/highstock.js"></script>
+	<script src="js/js-plugins/bootstrap-datepicker.js"></script>
+	<script src="js/js-plugins/TimeCircles.js"></script>
+	<script src="js/js-plugins/ion.rangeSlider.js"></script>
+
+	<!-- FontAwesome 5.x.x JS -->
+
+	<script defer src="fonts/fontawesome-all.js"></script>
+
+	<script src="js/main.js"></script>
+
+	<!-- SVG icons loader -->
+	<script src="js/svg-loader.js"></script>
+	<script src="js/particles.js"></script>
+	<script src="js/app.js"></script>
+	<!-- /SVG icons loader -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			rewind: true,
+			autoplay: {
+				delay: 5000,
+				disableOnInteraction: false,
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+		});
+	</script>
 
 </body>
+
 </html>
