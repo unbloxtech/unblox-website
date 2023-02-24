@@ -4919,8 +4919,9 @@ select, .select2 {
   }
   .crumina-flying-balls:before {
     top: 0;
-    -webkit-box-shadow: inset 0 150px 119px -40px #16181d;
-    box-shadow: inset 0 150px 119px -40px #16181d; }
+    /* -webkit-box-shadow: inset 0 150px 119px -40px #16181d;
+    box-shadow: inset 0 150px 119px -40px #16181d;  */
+  }
 
 .particles-js-canvas-el {
   position: absolute;

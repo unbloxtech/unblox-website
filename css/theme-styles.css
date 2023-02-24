@@ -1559,7 +1559,8 @@ body.crumina-grid .kc_col-of-5 {
   background-image: url("../img/bg-2.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 50% 50%; }
+  background-position: 50% 50%;
+}
 
 .bg-2 {
   background-image: url("../img/icon1.png");
@@ -2058,8 +2059,7 @@ abbr {
   .main-content-wrapper > .crumina-flying-balls:first-child {
     padding-top: 0px; }
     .main-content-wrapper > .crumina-flying-balls:first-child.page-not-found {
-      padding-top: 0; 
-    }
+      padding-top: 0; }
 
 /*------------- #Blocks with arrow --------------*/
 .block--with-arrow-left {
@@ -2156,7 +2156,7 @@ abbr {
 /*------------- Responsive Mode --------------*/
 @media (max-width: 1200px) {
   .responsive-width-50 {
-    max-width: 50%; }
+    max-width: 85%; }
   .responsive-align-center {
     text-align: center; }
     .responsive-align-center .btn-market-wrap {
@@ -5384,7 +5384,18 @@ img.mfp-img {
     max-width: 300px;
   }
   .title-mobile{
-    font-size:27px !important;
+    font-size:15px !important;
+  }
+  .bg-mobile{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .gap30-mobile{
+    margin-top: 30px !important;
+  }
+  .gap80-mobile{
+    margin-top: 80px !important;
   }
 }
 
